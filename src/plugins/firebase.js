@@ -1,10 +1,8 @@
 import Vue from 'vue'
-import VueFire from 'vuefire'
 import { firestorePlugin } from 'vuefire'
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
-Vue.use(VueFire)
 Vue.use(firestorePlugin)
 
 const firebaseApp = firebase.initializeApp({
